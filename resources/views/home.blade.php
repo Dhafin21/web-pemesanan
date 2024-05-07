@@ -19,6 +19,13 @@
   .footer {
     background-color: grey;
   }
+
+  .btn {
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+
+
 </style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex" style="background-color: rgba(0, 0, 0, 0.5);">
@@ -48,8 +55,8 @@
       <div class="card-body">
         <h5 class="card-title">Kamar Standar</h5>
         <p class="card-text">Kamar nyaman cocok untuk anda yang ingin beristirahat atau sebagai tempat singgah.</p>
+        <h6 class="card-title">300.000/hari</h6> <br>
         <a href="{{route ('standart')}}" class="btn btn-warning">Lihat Kamar</a>
-        <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
       </div>
     </div>
   </div>
@@ -60,8 +67,8 @@
       <div class="card-body">
         <h5 class="card-title">Kamar Deluxe</h5>
         <p class="card-text">Kamar nyaman dengan kasur yang lebih memanjakan badan cocok untuk anda yang ingin beristirahat dengan keluarga</p>
+        <h6 class="card-title">500.000/hari</h6> <br>
         <a href="{{route ('deluxe')}}" class="btn btn-warning">Lihat Kamar</a>
-        <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
       </div>
     </div>
   </div>
@@ -72,12 +79,15 @@
       <div class="card-body">
         <h5 class="card-title">Kamar Executive</h5>
         <p class="card-text">Kamar mewah dan luas yang cocok untuk liburan anda dengan keluarga tercinta, dengan fasilitas setara dengan bintang 4.</p>
+        <h6 class="card-title">700.000/hari</h6> <br>
         <a href="{{route ('executive')}}" class="btn btn-warning">Lihat Kamar</a>
-        <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
       </div>
     </div>
   </div>
 </div>
+      <div class="d-flex justify-content-center">
+          <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
+      </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

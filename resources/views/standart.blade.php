@@ -53,7 +53,7 @@
             <div class="card-body">
                 <h5 class="card-title">Kamar Standart</h5>
                 <p class="card-text">Kamar nyaman cocok untuk anda yang ingin beristirahat atau sebagai tempat singgah.</p>
-                <p class="card-text">Harga : 300000/hari</p>
+                <h6 class="card-title">Harga : 300.000/hari</h6>
                 <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
             </div>
         </div>

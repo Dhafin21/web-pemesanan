@@ -52,7 +52,7 @@
             <div class="card-body">
                 <h5 class="card-title">Kamar Deluxe</h5>
                 <p class="card-text">Kamar nyaman dengan kasur yang lebih memanjakan badan cocok untuk anda yang ingin beristirahat dengan keluarga</p>
-                <p class="card-text">Harga : 500000/hari</p>
+                <h6 class="card-title">Harga : 500.000/hari</h6>
                 <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
             </div>
         </div>

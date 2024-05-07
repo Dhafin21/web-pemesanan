@@ -54,11 +54,6 @@ class BookingController extends Controller
         return view('transaksi', compact('booking'));
     }
      
-    public function transaksi()
-    {
-    return view('transaksi', compact('bookings'));
-    }
-
     public function create ()
     {
         return view ('create');

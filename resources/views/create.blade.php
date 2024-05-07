@@ -131,17 +131,25 @@
 
             // Tambah biaya breakfast jika checkbox breakfast dipilih
             if (breakfastChecked) {
-                total += 80000; // Harga breakfast
+                var totalharga;
+                total += 80000 * time;
+                totalharga = total; // Harga breakfast
             }
 
             // Diskon 10% jika menginap lebih dari 3 hari
             if (time > 3) {
+                var totaldiskon;
                 var diskon = total * 0.1;
-                total -= diskon;
+                totaldiskon = total - diskon;
             }
 
             // Tampilkan total di dalam input total bayar
-            document.getElementById('total').value = total;
+            if (time > 3) {
+                document.getElementById('total').value = totaldiskon;
+            } else {
+                document.getElementById('total').value = total;
+            }
+            
         }
 
         // Panggil fungsi hitungTotal saat tombol "Hitung Total Bayar" diklik

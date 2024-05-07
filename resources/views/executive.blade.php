@@ -52,7 +52,7 @@
             <div class="card-body">
                 <h5 class="card-title">Kamar Executive</h5>
                 <p class="card-text">Kamar mewah dan luas yang cocok untuk liburan anda dengan keluarga tercinta.</p>
-                <p class="card-text">Harga : 700000/hari</p>
+                <h6 class="card-title">Harga : 700.000/hari</h6>
                 <a href="{{route ('create')}}" class="btn btn-warning">Pesan Sekarang</a>
             </div>
         </div>
